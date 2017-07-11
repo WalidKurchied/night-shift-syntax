@@ -47,7 +47,7 @@ atom-text-editor {
   }
 
   .selection .region {
-    background-color: @syntax-selection-color;
+    background-color:  #151727;
   }
 }
 
@@ -55,14 +55,14 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @light-gray;
+  color: @comment-color;
 }
 
 .syntax--keyword {
   color: @purple;
 
   &.syntax--control {
-    color: @purple;
+    color: @syntax-control-color;
   }
 
   &.syntax--operator {
@@ -79,7 +79,7 @@ atom-text-editor {
 }
 
 .syntax--storage {
-  color: @purple;
+  color: @syntax-storage-color;
 }
 
 .syntax--constant {
@@ -103,7 +103,7 @@ atom-text-editor {
 }
 
 .syntax--variable {
-  color: @red;
+  color: @syntax-varaible-color;
 
   &.syntax--interpolation {
     color: darken(@red, 10%);
@@ -116,11 +116,11 @@ atom-text-editor {
 
 .syntax--invalid.syntax--illegal {
   background-color: @red;
-  color: @syntax-background-color;
+  color: orange;
 }
 
 .syntax--string {
-  color: @green;
+  color: @syntax-string;
 
 
   &.syntax--regexp {
@@ -139,14 +139,14 @@ atom-text-editor {
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @light-gray;
+      color: @comment-color;
     }
 
     &.syntax--string,
     &.syntax--variable,
     &.syntax--parameters,
     &.syntax--array {
-      color: @syntax-text-color;
+      color: red;
     }
 
     &.syntax--heading,

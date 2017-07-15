@@ -22,12 +22,12 @@ atom-text-editor {
 
     .line-number {
       &.cursor-line {
-        background-color: @syntax-gutter-background-color-selected;
+        background-color: @selected-line-number-bg;
         color: @syntax-gutter-text-color-selected;
       }
 
       &.cursor-line-no-selection {
-        color: @syntax-gutter-text-color-selected;
+        color: @selected-line-number-color;
       }
     }
   }
@@ -293,8 +293,11 @@ atom-text-editor {
   }
 }
 
-
-// Mini editor
+atom-text-editor, :host {
+ .lines .line.cursor-line {
+   background-color:@selected-line-number-bg !important;
+ }
+}
 
 atom-text-editor[mini] .scroll-view {
   padding-left: 1px;

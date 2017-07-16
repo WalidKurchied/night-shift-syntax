@@ -47,7 +47,7 @@ atom-text-editor {
   }
 
   .selection .region {
-    background-color:  #151727;
+    background-color:  @selected-line-number-bg;
   }
 }
 
@@ -116,7 +116,7 @@ atom-text-editor {
 
 .syntax--invalid.syntax--illegal {
   background-color: @red;
-  color: orange;
+  color: @orange;
 }
 
 .syntax--string {
@@ -166,7 +166,7 @@ atom-text-editor {
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@red, 10%);
+    color: @very-light-gray;
   }
 
 }
@@ -211,7 +211,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: #8399bd;
+    color: @syntax-attribute-color;
 
     &.syntax--id {
       color: @blue;

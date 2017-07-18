@@ -1,7 +1,7 @@
 # night-shift-syntax
 > Atom Dark Syntax Theme
 
-An amazing dark syntax theme that was designed to work with any UI Theme, For best results use it with Night-Shift-UI [a link](https://github.com/WalidKurchied/night-shift-ui.git)
+An amazing dark syntax theme that was designed to work with any UI Theme, For best results use it with  [Night-Shift-UI](https://github.com/WalidKurchied/night-shift-ui.git)
 
 
 

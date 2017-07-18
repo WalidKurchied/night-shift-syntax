@@ -2,12 +2,12 @@
   "name": "night-shift-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A unique dark syntax theme that can be used well with any UI Theme and in particular The Night Shift UI Theme",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/night-shift-syntax",
+  "repository": "https://github.com/WalidKurchied/night-shift-syntax.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

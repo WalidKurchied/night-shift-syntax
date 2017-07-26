@@ -32,5 +32,6 @@ OR
 
 
 ## Screenshots
-
+![A screenshot of the theme](https://user-images.githubusercontent.com/7544317/28647765-1e5bb366-7261-11e7-9431-624998a38b72.png)
+![A screenshot of the theme](https://user-images.githubusercontent.com/7544317/28647766-1e610938-7261-11e7-9a87-11a9afd46445.png)
 ![A screenshot of the theme](https://user-images.githubusercontent.com/7544317/28341610-63155756-6c0c-11e7-8c5c-f7ceace9430d.png)
